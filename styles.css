@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: Kalam, cursive;
+    background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+
+header,
+footer {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+header {
+    font-size: 2rem;
+}
+
+#container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    font-family: Kalam, cursive;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#input-text {
+    min-height: 20vh;
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+#output-text {
+    min-height: 15vh;
+    font-size: large;
+    margin-top: 15px;
+    background-color: white;
+}
+
+button {
+    padding: 1rem;
+    font-size: medium;
+    font-family: Kalam, cursive;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+}
